@@ -1,36 +1,23 @@
-//═════════════════════════════════//
 
-/*
-🔗 Juice v12 Bot System
-by Juice v12 • 2024 - 2026
-
->> Contact Links:
-・WhatsApp : wa.me/254753204154
-・Telegram : t.me/jayariah77-code
-
-⚠️ PROPRIETARY SOFTWARE - DO NOT MODIFY
-Any unauthorized modification, redistribution,
-or removal of credits is strictly prohibited.
-*/
 
 //═════════════════════════════════//
 //━━━━━━━━━━━━━━━━━━━━━━━━//
 // Owner Setting - DO NOT MODIFY
-global.owner = ["254753204154",]
-global.ownername = "Juice v12"
-global._protectedOwner = "254753204154"
-global._protectedBrand = "Juice v12"
-global._protectedAuthor = "Juice v12"
+global.owner = ["254743436105",]
+global.ownername = "YOBIH-BOT"
+global._protectedOwner = "254743436105"
+global._protectedBrand = "yobih bot"
+global._protectedAuthor = "yobih bot"
 //━━━━━━━━━━━━━━━━━━━━━━━━//
 // Bot Setting
-global.botname = "Juice v12"
+global.botname = "YOBIH BOT"
 global.botver = "2.0.0"
 global.idch = "120363299254074394@newsletter"
-global.newsletterName = "Juice v12 Updates"
+global.newsletterName = "Yobih bot Updates"
 global.typebot = "Multi-Device Bot"
 global.session = "session"
 global.thumb = "https://raw.githubusercontent.com/jayariah77-code/juice-v12/main/images/juice-owner.jpg"
-global.wagc = "https://wa.me/254753204154"
+global.wagc = "https://wa.me/254743436105"
 global.welcome = false
 global.adminevent = false
 global.fakePresence = 'off'
@@ -40,7 +27,7 @@ global.statusMentionWarns = {}
 global.statusMentionDeleteList = {}
 global.autoLikeEmoji = ''
 global.statusToGroup = ''
-global.botPrefix = '.'   // Any string: '.' '!' '🔥' '⚡' 'bot' 'juice_v12' 'XD~'
+global.botPrefix = '.'   // Any string: '.' '!' '🔥' '⚡' 'bot' 'yobih_v12' 'XD~'
 global.antiCall = false
 global.autoRead = false
 global.chatBot = false
@@ -68,20 +55,20 @@ global.antiDemote = false
 global.menuThumb = ''
 global.botTimezone = 'Africa/Nairobi'
 global.botPic = ''
-global.botUrl = 'https://wa.me/254753204154'
+global.botUrl = 'https://wa.me/254743436105'
 //━━━━━━━━━━━━━━━━━━━━━━━━//
 // GitHub Repo URL (used by .update command — set this to your repo)
-global.repoUrl = 'https://github.com/jayariah77-code/juice-v12'
+global.repoUrl = 'https://github.com/254100934193/YOBIH-BOT'
 global.ownerFontMode = 'off' // Set via .setfont [name], disable via .fontoff
 //━━━━━━━━━━━━━━━━━━━━━━━━//
 // Sticker Marker
-global.packname = "Juice v12"
-global.author = "© Juice v12"
+global.packname = "yobih"
+global.author = "© mungai yobih"
 //━━━━━━━━━━━━━━━━━━━━━━━━//
 // Social Links
-global.telegram = "https://t.me/jayariah77-code"
-global.sessionUrl = process.env.SESSION_URL || "https://juice-v12-session-generator.onrender.com/pair"
-global.ownerNumber = "+254753204154"
+global.telegram = "https://t.me/Yobih_Mungai_ke"
+global.sessionUrl = process.env.SESSION_URL || "https://mungai2544-480d11a7979f.herokuapp.com/pair"
+global.ownerNumber = "+254743436105"
 //━━━━━━━━━━━━━━━━━━━━━━━━//
 // Respon Message
 global.mess = {
