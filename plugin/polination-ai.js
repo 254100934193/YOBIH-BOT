@@ -24,11 +24,11 @@ module.exports = {
         const { args, reply } = context;
 
   try {
-    if (!args[0]) return reply(`╔══════════════════════════╗\n║   ⚡ *Juice v12*\n║   _WhatsApp Multi-Device Bot_\n╚══════════════════════════╝\n\n  🤖 *Pollinations AI*\n\n  └ Send a message to get a response!\n\n  _Example: .poliai What is AI?_\n\n┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄\n_⚡ Powered by Juice v12 — wa.me/254753204154_`)
+    if (!args[0]) return reply(`╔══════════════════════════╗\n║   ⚡ *Yobih bot*\n║   _WhatsApp Multi-Device Bot_\n╚══════════════════════════╝\n\n  🤖 *Pollinations AI*\n\n  └ Send a message to get a response!\n\n  _Example: .poliai What is AI?_\n\n┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄\n_⚡ Powered by yobih mungai — wa.me/254743436105_`)
 
     let { data } = await axios.post('https://text.pollinations.ai/openai', {
       messages: [
-        { role: 'system', content: 'You are a helpful assistant for Juice v12 WhatsApp bot by Juice v12.' },
+        { role: 'system', content: 'You are a helpful assistant for yobih bot WhatsApp bot by mungai yobih.' },
         { role: 'user', content: args.join(' ') }
       ],
       stream: false
@@ -43,10 +43,10 @@ module.exports = {
     const result = data?.choices?.[0]?.message?.content
     if (!result) return reply(`❌ *No response from AI. Try again.*`)
 
-    reply(`╔══════════════════════════╗\n║   ⚡ *Juice v12*\n║   _WhatsApp Multi-Device Bot_\n╚══════════════════════════╝\n\n  🤖 *Pollinations AI*\n\n${result}\n\n┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄\n_⚡ Powered by Juice v12 — wa.me/254753204154_`)
+    reply(`╔══════════════════════════╗\n║   ⚡ *yobih bot*\n║   _WhatsApp Multi-Device Bot_\n╚══════════════════════════╝\n\n  🤖 *Pollinations AI*\n\n${result}\n\n┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄\n_⚡ Powered by yobih bot — wa.me/254743436105_`)
 
   } catch (e) {
-    reply(`❌ *Error* — AI service unavailable. Please try again.\n\n_⚡ Juice v12 by Juice v12_`)
+    reply(`❌ *Error* — AI service unavailable. Please try again.\n\n_⚡ yobih bot by mungai yobih_`)
   }
  }
 }
