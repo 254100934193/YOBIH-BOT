@@ -1,7 +1,7 @@
 {
-  "name": "juice-v12",
+  "name": "yobih-bot",
   "version": "2.0.0",
-  "description": "Juice v12 WhatsApp Multi-Device Bot by Juice v12",
+  "description": "yobih bot WhatsApp Multi-Device Bot by mungai yobih",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
