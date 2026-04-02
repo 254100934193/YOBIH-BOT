@@ -5,7 +5,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=40&pause=1000&color=25D366&center=true&width=900&height=80&lines=YOBIH BOT;WhatsApp+Multi-Device+Bot;766+Commands+%7C+37%2B+AI+Models;Deploy+Anywhere+%E2%80%94+No+Setup+Required" alt="YOBIH" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=40&pause=1000&color=25D366&center=true&width=900&height=80&lines=YOBIH+BOT;WhatsApp+Multi-Device+Bot;766+Commands+%7C+37%2B+AI+Models;Deploy+Anywhere+%E2%80%94+No+Setup+Required" alt="YOBIH" />
 </a>
 
 <br/><br/>
