@@ -1,7 +1,7 @@
 {
-  "name": "Juice v12",
-  "description": "Juice v12 WhatsApp Multi-Device Bot",
-  "repository": "https://github.com/jayariah77-code/juice-v12",
+  "name": "YOBIH BOT",
+  "description": "Yobih bot WhatsApp Multi-Device Bot",
+  "repository": "https://github.com/254100934193/YOBIH-BOT",
   "logo": "https://files.catbox.moe/qbcebp.jpg",
   "keywords": [
     "whatsapp",
@@ -14,14 +14,14 @@
       "required": true
     },
     "SESSION_ID": {
-      "description": "Your JUICE~ session ID from the session generator. Leave blank to use terminal pairing on first run.",
+      "description": "Your Yobih~ session ID from the session generator. Leave blank to use terminal pairing on first run.",
       "required": false,
       "value": ""
     },
     "SESSION_URL": {
       "description": "URL of your session generator (optional). Shown in the bot connection message.",
       "required": false,
-      "value": "https://juice-v12-session-generator.onrender.com/pair"
+      "value": "https://mungai2544-480d11a7979f.herokuapp.com/pair"
     }
   },
   "formation": {
