@@ -1,41 +1,48 @@
 {
-  "name": "YOBIH BOT",
-  "description": "Yobih bot WhatsApp Multi-Device Bot",
-  "repository": "https://github.com/254100934193/YOBIH-BOT",
-  "logo": "https://files.catbox.moe/qbcebp.jpg",
+  "name": "YOBIH-BOT",
+  "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
   "keywords": [
-    "whatsapp",
     "bot",
-    "multi-device"
+    "whatsapp",
+    "BWM-XMD",
+    "whatsapp-stickers",
+    "anime",
+    "whatsapp-bot",
+    "Ibrahimadams",
+    "whatsapp",
+    "baileys",
+    "baileys-md",
+    "md-bot"
   ],
+  "website": "https://github.com/254100934193/YOBIH-BOT#readme",
+  "repository": "https://github.com/254100934193/YOBIH-BOT.git",
+  "logo": "https://files.catbox.moe/bkuj17.jpg",
+  "success_url": "/",
   "env": {
-    "OWNER_NUMBER": {
-      "description": "Your WhatsApp number with country code. No + or leading 0. Example: 254753204154",
+    "SESSION": {
+      "description": "Add your session id here",
       "required": true
     },
-    "SESSION_ID": {
-      "description": "Your Yobih~ session ID from the session generator. Leave blank to use terminal pairing on first run.",
-      "required": false,
-      "value": ""
+    "OWNER_NUMBER": {
+      "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 2547123456797",
+      "required": true
     },
-    "SESSION_URL": {
-      "description": "URL of your session generator (optional). Shown in the bot connection message.",
-      "required": false,
-      "value": "https://mungai2544-480d11a7979f.herokuapp.com/pair"
+    "DEVICE_MODE": {
+      "description": "Device mode: iPhone (plain text) or Android (full features with buttons)",
+      "value": "Android",
+      "required": true
     }
   },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "basic"
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0",
+      "as": "DATABASE"
     }
-  },
+  ],
   "buildpacks": [
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    },
-    {
-      "url": "heroku/nodejs"
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
     }
-  ]
+  ],
+  "stack": "heroku-24"
 }
